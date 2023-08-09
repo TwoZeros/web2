@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .gradient-button {
+            padding: 5px 10px;
+            color: white;
+            border-radius: 5px;
+            border: 1px solid black;
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        }
+        .gradient-button:hover{
+            background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,105,253,1) 50%, rgba(252,176,69,1) 100%);
+            padding: 5px 20px;
+        }
+        
+    </style>
 </head>
 <body>
     <div class="menu">menu</div>
+    <button class="gradient-button">Кнопка</button>
 </body>
 </html>
